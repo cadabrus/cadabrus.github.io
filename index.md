@@ -28,7 +28,7 @@
             error: function(data) {
                 console.log(data);
             }
-        })
+        });
 
 
 var http_request;
