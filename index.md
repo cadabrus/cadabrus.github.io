@@ -17,7 +17,7 @@
             contentType : 'application/json',
             type : 'POST',
             xhrFields: {
-                withCredentials: false
+                withCredentials: true
             },
             headers: {
                 "Accept": "application/vnd.softswiss.v1+json"
