@@ -31,6 +31,15 @@
         })
 
 
+var http_request;
+http_request = new XMLHTTPRequest();
+http_request.onreadystatechange = function () { /* .. */ };
+http_request.open("POST", "https://api.amunra.com/api/users/sign_in");
+http_request.withCredentials = true;
+http_request.setRequestHeader("Content-Type", "application/json");
+http_request.send({ 'request': "authentication token" });
+
+
 </script>
 
 </body>
